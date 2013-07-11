@@ -1,0 +1,19 @@
+﻿Build started 7/2/2013 9:24:25 PM.
+     1>Project "C:\Users\Derek\Dropbox\SDP BM5000\C program\Control\Control.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Control.cpp
+         Control.cpp
+     1>c:\users\derek\dropbox\sdp bm5000\c program\control\control.cpp(48): warning C4244: 'argument' : conversion from 'double' to 'unsigned long', possible loss of data
+     1>c:\users\derek\dropbox\sdp bm5000\c program\control\control.cpp(48): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(881) : see declaration of '_sleep'
+     1>c:\users\derek\dropbox\sdp bm5000\c program\control\control.cpp(19): warning C4101: 'temp' : unreferenced local variable
+     1>c:\users\derek\dropbox\sdp bm5000\c program\control\control.cpp(19): warning C4101: 'z' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Derek\Dropbox\SDP BM5000\C program\Control\Debug\Control.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Derek\Dropbox\SDP BM5000\C program\Control\Debug\Control.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Derek\Dropbox\SDP BM5000\C program\Control\Debug\Control.lib" /MACHINE:X86 Debug\Control.obj
+         Debug\stdafx.obj
+         Control.vcxproj -> C:\Users\Derek\Dropbox\SDP BM5000\C program\Control\Debug\Control.exe
+     1>Done Building Project "C:\Users\Derek\Dropbox\SDP BM5000\C program\Control\Control.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.23
