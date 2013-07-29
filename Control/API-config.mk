@@ -1,9 +1,9 @@
 #Crosscompiler for Gnublin
 #CXX := arm-linux-gnueabi-g++ 
 #Crosscompiler for Raspberry Pi:
-CXX := arm-linux-gnueabihf-g++
+#CXX := arm-linux-gnueabihf-g++
 #Compiler for onboard compilation:
-#CXX := g++
+CXX := g++
 
 #Compilerflags:
 CXXFLAGS = -Wall
